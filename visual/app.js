@@ -2,10 +2,12 @@ const button = document.querySelector(".fa-solid");
 const input = document.querySelector(".notlar");
 const form = document.querySelector(".form2");
 const clear = document.querySelector(".cleardiv");
+const notlar=document.querySelector(".notlar")
 const clearbtn = document.querySelector(".clear");
 button.addEventListener("click", createNot);
 
 function createNot(e) {
+  if(notlar.value!=""){
   e.preventDefault();
   let newInput = document.createElement("div");
   newInput.style.backgroundColor = "white";
@@ -17,6 +19,7 @@ function createNot(e) {
   newInput.innerHTML = ` ${input.value} <div class="seclogo2"><i class="fa-regular fa-square-check"></i></div> 
    <div class="seclogo"> <i class="fa-regular fa-trash-can"></i>   </div> `;
   form.append(newInput);
+  notlar.value=""
 
   const check = document.querySelectorAll(".fa-square-check");
   const remove = document.querySelectorAll(".fa-trash-can");
@@ -40,4 +43,5 @@ function createNot(e) {
     form.innerHTML = "";
     clear.style.display = "none";
   });
+  }
 }
