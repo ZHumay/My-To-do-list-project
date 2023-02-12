@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+body {
+  background: linear-gradient(90deg, #7bd48f, #c56161);  
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  color: rgb(238, 228, 34);
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.form1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+}
+.cleardiv{
+ display: none;
+}
+.clear{
+  width: 130px;
+  height: 30px;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  border-color: azure;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.notlar {
+  width: 407px;
+  height: 30px;
+  font-style: italic;
+
+}
+.fa-solid {
+  margin-left: -23.9px;
+  padding-top: 6px;
+  text-align: center;
+  width: 24px;
+  height: 27px;
+  background-color: rgb(238, 228, 34);
+  color: rgb(186, 94, 33);
+  border: 1px solid rgb(116, 115, 115);
+  font-size: 20px;
+}
+.fa-square-check {
+  margin-left: 500px;
+  padding-top: 6px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  color: rgb(252, 248, 251);
+  background-color: green;
+  font-size: 16px;
+}
+.fa-regular {
+  width: 24px;
+  height: 24px;
+
+}
+.fa-trash-can {
+  padding-top: 6px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  color: rgb(252, 248, 251);
+  background-color: rgb(168, 44, 27);
+  font-size: 16px;
+  
+}
+.seclogo {
+  margin-left: 529.5px;
+  margin-top: -24px;
+  width: 24px;
+  height: 24px;
+}
+.seclogo2{
+    
+        margin-left:6px;
+        margin-top: -18.4px;
+        width: 24px;
+        height: 24px;
+      
+}
